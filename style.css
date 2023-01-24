@@ -1,1 +1,31 @@
-
+:root {
+  --primary-text-color: #404040;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --light-grey-color: rgba(64, 64, 64, 0.3);
+  --dark-grey-color: #646565;
+  --grey-color: #999999;
+  --footer-grey: #989898;
+  --blue-color: #2468ff;
+  --persian-green-color: #00b68c;
+  --footer-background-color: #161f49;
+  --grey97-color: #f7f7f7;
+  --black-pearl-color: #070e16;
+  --semi-black-color: rgba(00, 00, 00, 0.5);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: var(--primary-text-color);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.btn {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-family: inherit;
+}
