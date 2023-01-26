@@ -26,9 +26,16 @@ ul {
   list-style: none;
 }
 .btn {
+  display: inline-block;
   background-color: var(--blue-color);
   color: var(--white-color);
   font-family: inherit;
+  padding-top: 17px;
+  padding-bottom: 21px;
+  padding-right: 70px;
+  padding-left: 71px;
+  border: none;
+  text-transform: uppercase;
 }
 .title {
   font-weight: 400;
@@ -108,6 +115,9 @@ ul {
   line-height: calc(25 / 18);
 }
 /* section Never worry about wifi again. section */
+.img-sec {
+  display: block;
+}
 
 .features-subtitle {
   font-style: normal;
