@@ -95,7 +95,21 @@ ul {
   text-transform: uppercase;
   border: none;
 }
+
+/* advantages section */
+.advantages-titel {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: calc(60/50);
+}
+
+.advantages-text {
+  line-height: calc(25/18);
+}
+  
+
 /*Find your eero system*/
 .slider{
   background-color: var(--grey97-color);
 }
+
