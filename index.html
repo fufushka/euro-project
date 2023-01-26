@@ -4,46 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Eero</title>
   </head>
   <body>
     <header>
       <div class="additional-wrap">
-        <a href="#">Free 2-day shipping | 30-day money back guarantee</a>
+        <a class="header-info" href="#"
+          >Free 2-day shipping | 30-day money back guarantee</a
+        >
       </div>
-      <nav>
-        <a href="#">
-          <img src="./images/logo.png" alt="logo" />
+      <nav class="header-nav">
+        <a class="header-logo" href="#">
+          <img class="header-logo-img" src="./images/logo.png" alt="logo" />
         </a>
-        <ul>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">How it works</a></li>
-          <li><a href="#">Technology</a></li>
-          <li><a href="#">eero Secure</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Find your system</a></li>
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-item-link" href="#">Products</a>
+          </li>
+          <li class="header-item">
+            <a class="header-item-link" href="#">How it works</a>
+          </li>
+          <li class="header-item">
+            <a class="header-item-link" href="#">Technology</a>
+          </li>
+          <li class="header-item">
+            <a class="header-item-link" href="#">eero Secure</a>
+          </li>
+          <li class="header-item">
+            <a class="header-item-link" href="#">Support</a>
+          </li>
+          <li class="header-item">
+            <a class="header-item-link" href="#">Find your system</a>
+          </li>
         </ul>
       </nav>
-      <button type="button">Shop</button>
+      <button class="header-button btn" type="button">Shop</button>
     </header>
     <main>
-      <section style="background-color: silver">
-        <h1>Wi-Fi 6 is here.</h1>
-        <p>The future of home wifi is fast.</p>
-        <button type="button">SHOP WIFI SOLUTIONS</button>
+      <section class="section hero-section" style="background-color: silver">
+        <h1 class="hero-title">Wi-Fi 6 is here.</h1>
+        <p class="hero-text">The future of home wifi is fast.</p>
+        <button class="btn primary" type="button">SHOP WIFI SOLUTIONS</button>
       </section>
-      <section>
-        <p>Explore eero systems on</p>
+      <section class="section find-section">
+        <p class="find-text">Explore eero systems on</p>
         <img src="./images/amazon-icon.png" alt="amazon-icon" />
-        <a href="#">Shop now</a>
-        <h2>More wifi for the devices in your connected home.</h2>
-        <p>
+        <a class="find-link" href="#">Shop now</a>
+        <h2 class="find-title">
+          More wifi for the devices in your connected home.
+        </h2>
+        <p class="find-subtitle">
           eero 6 systems use the power of Wi-Fi 6 to deliver faster speeds,
           increase your internet’s efficiency, and reduce network congestion.
           Say goodbye to dead spots and buffering with a connection that doesn’t
           slow you down, even as you add more devices.
         </p>
-        <button type="button">Find your eero system</button>
+        <button class="btn secondary" type="button">
+          Find your eero system
+        </button>
         <img src="./images/Rectangle.jpg" alt="" width="928" height="747" />
       </section>
       <section>
@@ -150,9 +175,10 @@
           />
         </div>
       </section>
-      <section>
-        <h2>Give your home the connectivity it deserves.</h2>
-        <p>
+      <!-- advantages section -->
+      <section class="advantages-section">
+        <h2 class="advantages-titel">Give your home the connectivity it deserves.</h2>
+        <p class="advantages-text">
           Say goodbye to dead spots, drop-offs, and buffering-even when the
           whole family is online. With eero, a simple and reliable connection is
           a given. Get a consistently strong signal for streaming, gaming, and
@@ -166,50 +192,14 @@
         />
       </section>
       <section>
-        <h3>TrueMesh covers your whole home.</h3>
+        <h3>
+          TrueMesh covers your whole home.
+        </h3>
         <p>
-          TrueMesh learns the layout of your home to intelligently route traffic
-          and optimize your <br />
-          wifi. eero 6 and eero Pro 6 are the first Wi-Fi 6 routers with eero’s
-          TrueMesh technology.
+          TrueMesh learns the layout of your home to intelligently route traffic and optimize your <br> wifi. eero 6 and eero Pro 6 are the first Wi-Fi 6 routers with eero’s TrueMesh technology.
         </p>
         <button type="button">See how it works</button>
-        <img src="./images/Rectangle.png" alt="" />
-      </section>
-      <!-- Section never worry wifi Bogdan -->
-      <section>
-        <h3>Never worry about wifi again.</h3>
-        <ul>
-          <li>
-            <img src="./images/icon-1.svg" width="77" height="77" alt="icon" />
-            <h4>Fast and easy setup</h4>
-            <p>
-              Unbox your eero devices, download the app, and start surfing the
-              web in minutes. The eero app makes it easy to set up and manage
-              wifi for everyone at home.
-            </p>
-            <a href="">CHECK OUT THE APP</a>
-          </li>
-          <li>
-            <img src="./images/icon-2.svg" alt="" />
-            <h4>Advanced network protection</h4>
-            <p>
-              Every eero comes with world-class encryption and security
-              protocols. Add on eero Secure to get even more protection with
-              parental controls, ad blocking, and more.
-            </p>
-            <a href="">GET EERO SECURE</a>
-          </li>
-          <li>
-            <img src="./images/icon-3.svg" alt="" />
-            <h4>Always getting better</h4>
-            <p>
-              eero automatically updates to bring you security patches, improved
-              performance, and new features.
-            </p>
-            <a href="">READ ABOUT EERO UPDATES</a>
-          </li>
-        </ul>
+        <img src="./images/Rectangle.png" alt="">
       </section>
       <!-- --------- -->
       <section>
@@ -278,7 +268,7 @@
       <form>EMAIL</form>
       <img src="./images/line.png" alt="line" />
       <button type="submit">submit</button>
-      <p>© <span>2021</span><span>EERO LLC, SAN FRANCISCO, CA</span></p>
+      <p>&copy <span>2021</span><span>EERO LLC, SAN FRANCISCO, CA</span></p>
       <ul>
         <li>
           <a
