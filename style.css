@@ -95,4 +95,62 @@ ul {
   text-transform: uppercase;
   border: none;
 }
+
+/* advantages section */
+.advantages-titel {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: calc(60 / 50);
+}
+
+.advantages-text {
+  line-height: calc(25 / 18);
+}
+/* section Never worry about wifi again. section */
+.features-title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+}
+.features-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.1;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.features-link {
+  color: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1;
+}
+/* ---------------------------------------------- */
+/*TrueMesh system*/
+.truemesh {
+  background-color: #161f49;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.truemesh-text {
+  font-size: 18px;
+  line-height: 1.39;
+}
+
+.truemesh-button {
+  background-color: #2468ff;
+  border: none;
+  color: #ffffff;
+}
+
 /*Find your eero system*/
+.slider {
+  background-color: var(--grey97-color);
+}
