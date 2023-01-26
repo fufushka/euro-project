@@ -160,3 +160,15 @@ ul {
 .slider {
   background-color: var(--grey97-color);
 }
+
+/* Newspaper-clipping */
+.newspaper-clipping {
+  background-color: var(--primary-text-color);
+}
+.newspaper-clipping-article {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(48 / 42);
+  text-align: center;
+  color: var(--white-color);
+}
