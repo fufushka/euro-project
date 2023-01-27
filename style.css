@@ -117,7 +117,7 @@ ul {
 */
 
 .wfunctional-section {
-  background: var(--grey-color);
+  background: url(./images/wifi-background.png);
   border-radius: 0px;
 }
 
