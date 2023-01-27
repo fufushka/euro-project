@@ -116,7 +116,7 @@ ul {
 */
 
 .wfunctional-section {
-  background: url(/images/Wi-fi_control.jpg);
+  background: url(./images/Wi-fi_control.jpg);
   border-radius: 0px;
 }
 
@@ -201,22 +201,19 @@ ul {
 .slider {
   background-color: var(--grey97-color);
 }
-.btn-slider{
+.btn-slider {
   color: var(--white-color);
   background-color: var(--grey-color);
   border: none;
   cursor: pointer;
 }
-.dash-slider{
+.dash-slider {
   background-color: var(--grey-color);
 }
 .btn-slider:hover,
-.btn-slider:focus{
+.btn-slider:focus {
   background-color: var(--persian-green-color);
-  
 }
-
-
 
 /* Newspaper-clipping */
 .newspaper-clipping {
