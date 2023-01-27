@@ -226,3 +226,64 @@ ul {
   text-align: center;
   color: var(--white-color);
 }
+
+  /* Turns out, people love great wifi */
+
+.title-turns-out{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: calc(60/50);
+  text-align: center;
+  margin-bottom: 123px;
+}
+.section-turns-out-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(19/14);
+  color: var(--grey-color);
+  text-transform: uppercase;
+}
+.section-turns-out-link:hover,
+:focus{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: calc(19/13);
+  color: var(--blue-color);
+  text-transform: uppercase;
+}
+.section-turns-out-description{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: calc(52/36);
+  color: var(--primary-text-color);
+}
+.section-turns-out-address{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(25/18);
+  color: var(--dark-grey-color);
+}
+.section-turns-out-btn{
+  background: #2468FF;
+  border: 0px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: calc(14/13);
+  letter-spacing: 0.11px;
+  text-transform: uppercase;  
+  color: #FFFFFF;
+  padding: 17px 37px 21px 37px ;
+}
