@@ -294,7 +294,6 @@ ul {
 .goodbye {
   padding: 111px 0 114px;
   background: url('../images/goodbye.jpg') no-repeat;
-  background-size: cover;
 }
 
 .goodbye .goodbye-content {
@@ -304,7 +303,6 @@ ul {
 }
 
 .goodbye h2 {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 50px;
   line-height: 60px;
@@ -317,13 +315,11 @@ ul {
 .goodbye a {
   margin-top: 83px;
   display: block;
-  text-decoration: none;
   width: 100%;
   max-width: 234px;
-  background: #2468FF;
+  background: var(--blue-color);
   padding: 17px 20px 21px;
   text-align: center;
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 14px;
