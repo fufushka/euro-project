@@ -12,6 +12,7 @@
   --grey97-color: #f7f7f7;
   --black-pearl-color: #070e16;
   --semi-black-color: rgba(00, 00, 00, 0.5);
+  
 }
 body {
   margin: 0;
@@ -213,7 +214,6 @@ ul {
 .btn-slider:hover,
 .btn-slider:focus {
   background-color: var(--persian-green-color);
-}
 
 /* Newspaper-clipping */
 .newspaper-clipping {
