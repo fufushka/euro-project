@@ -179,10 +179,16 @@ ul {
   line-height: 1.1;
 }
 /* ---------------------------------------------- */
+
 /*TrueMesh system*/
 .truemesh {
-  background-color: #161f49;
-  color: #ffffff;
+  background-color: var(--footer-background-color);
+  color: var(--white-color);
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.truemesh-title{
   font-size: 50px;
   line-height: 1.2;
 }
@@ -192,10 +198,16 @@ ul {
   line-height: 1.39;
 }
 
-.truemesh-button {
-  background-color: #2468ff;
+.truemesh-btn {
+  background-color: var(--blue-color);
   border: none;
-  color: #ffffff;
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.11px;
 }
 
 /*Find your eero system*/
