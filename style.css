@@ -102,13 +102,22 @@ p {
   border: none;
 }
 /* Hero section */
+.hero-container{
+  text-align: center;
+}
+
+.hero-section {
+  padding-top: 120px;
+}
 .hero-title {
+  margin-bottom: 24px;
   font-size: 72px;
   font-weight: 400;
   line-height: 1.11;
   color: var(--white-color);
 }
 .hero-text {
+  margin-bottom: 16px;
   font-size: 21px;
   line-height: 1.38;
   color: var(--white-color);
