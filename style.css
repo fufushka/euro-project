@@ -93,6 +93,7 @@ p {
   color: inherit;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 18px;
 }
 .header-button {
   display: inline-block;
@@ -296,8 +297,7 @@ p {
   color: var(--grey-color);
   text-transform: uppercase;
 }
-.section-turns-out-link:hover,
-:focus {
+.section-turns-out-link:hover {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
