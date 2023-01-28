@@ -12,7 +12,6 @@
   --grey97-color: #f7f7f7;
   --black-pearl-color: #070e16;
   --semi-black-color: rgba(00, 00, 00, 0.5);
-  
 }
 body {
   margin: 0;
@@ -25,6 +24,18 @@ a {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
 .btn {
   display: inline-block;
@@ -44,8 +55,31 @@ ul {
   line-height: calc(60 / 50);
   text-align: center;
 }
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /* header sectoin */
+.header-wrap {
+  display: flex;
+  padding-left: 30px;
+}
+.header-nav {
+  align-items: center;
+  display: flex;
+  margin-right: auto;
+}
+.header-list {
+  display: flex;
+  gap: 20px;
+}
+.header-logo {
+  display: block;
+  margin-right: 100px;
+}
 .additional-wrap {
+  padding: 5px 0;
   text-align: center;
   background-color: var(--footer-background-color);
 }
@@ -53,9 +87,12 @@ ul {
   color: var(--white-color);
 }
 .header-item-link {
-  line-height: calc(25px / 18);
+  display: block;
+  line-height: calc(25 / 18);
   letter-spacing: 0.10998px;
   color: inherit;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .header-button {
   display: inline-block;
@@ -188,7 +225,7 @@ ul {
   line-height: 1.2;
 }
 
-.truemesh-title{
+.truemesh-title {
   font-size: 50px;
   line-height: 1.2;
 }
@@ -226,7 +263,7 @@ ul {
 .btn-slider:hover,
 .btn-slider:focus {
   background-color: var(--persian-green-color);
-
+}
 /* Newspaper-clipping */
 .newspaper-clipping {
   background-color: var(--primary-text-color);
@@ -239,73 +276,71 @@ ul {
   color: var(--white-color);
 }
 
-  /* Turns out, people love great wifi */
+/* Turns out, people love great wifi */
 
-.title-turns-out{
-  font-family: 'Roboto';
+.title-turns-out {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  line-height: calc(60/50);
+  line-height: calc(60 / 50);
   text-align: center;
   margin-bottom: 123px;
 }
-.section-turns-out-link{
-  font-family: 'Roboto';
+.section-turns-out-link {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(19/14);
+  line-height: calc(19 / 14);
   color: var(--grey-color);
   text-transform: uppercase;
 }
 .section-turns-out-link:hover,
-:focus{
-  font-family: 'Roboto';
+:focus {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  line-height: calc(19/13);
+  line-height: calc(19 / 13);
   color: var(--blue-color);
   text-transform: uppercase;
 }
-.section-turns-out-description{
-  font-family: 'Roboto';
+.section-turns-out-description {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  line-height: calc(52/36);
+  line-height: calc(52 / 36);
   color: var(--primary-text-color);
 }
-.section-turns-out-address{
-  font-family: 'Roboto';
+.section-turns-out-address {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: calc(25/18);
+  line-height: calc(25 / 18);
   color: var(--dark-grey-color);
 }
-.section-turns-out-btn{
-  background: #2468FF;
+.section-turns-out-btn {
+  background: #2468ff;
   border: 0px;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
-  line-height: calc(14/13);
+  line-height: calc(14 / 13);
   letter-spacing: 0.11px;
-  text-transform: uppercase;  
-  color: #FFFFFF;
-  padding: 17px 37px 21px 37px ;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 17px 37px 21px 37px;
 }
-
-
 
 /* Section goodbye */
 .goodbye {
   padding: 111px 0 114px;
-  background: url('../images/goodbye.jpg') no-repeat;
+  background: url("../images/goodbye.jpg") no-repeat;
 }
 
 .goodbye .goodbye-content {
@@ -319,7 +354,7 @@ ul {
   font-size: 50px;
   line-height: 60px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
   max-width: 596px;
 }
@@ -337,5 +372,5 @@ ul {
   line-height: 14px;
   letter-spacing: 0.11px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
