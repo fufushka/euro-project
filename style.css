@@ -12,7 +12,6 @@
   --grey97-color: #f7f7f7;
   --black-pearl-color: #070e16;
   --semi-black-color: rgba(00, 00, 00, 0.5);
-  
 }
 
 body {
@@ -73,6 +72,7 @@ p {
 .header-nav {
   align-items: center;
   display: flex;
+
   margin-right: auto;
 }
 
@@ -114,7 +114,7 @@ p {
 }
 
 /* Hero section */
-.hero-container{
+.hero-container {
   text-align: center;
 }
 
@@ -415,10 +415,7 @@ p {
 }
 
 .section-turns-out-link:hover,
-:focus 
-
-.section-turns-out-link:hover {
-
+:focus .section-turns-out-link:hover {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -497,7 +494,6 @@ p {
   letter-spacing: 0.11px;
   text-transform: uppercase;
   color: #ffffff;
-
 }
 
 /* }=================footer section=================== */
@@ -515,11 +511,9 @@ p {
 }
 
 .information {
-
   font-size: 36px;
   line-height: calc(48 / 36);
   color: var(--white-color);
-
 }
 
 .mail-footer {
