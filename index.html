@@ -21,45 +21,51 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <div class="additional-wrap">
-        <a class="header-info" href="#"
-          >Free 2-day shipping | 30-day money back guarantee</a
-        >
+    <header class="header">
+      <div class="container">
+        <div class="additional-wrap">
+          <a class="header-info" href="#"
+            >Free 2-day shipping | 30-day money back guarantee</a
+          >
+        </div>
+        <div class="header-wrap">
+          <nav class="header-nav">
+            <a class="header-logo" href="#">
+              <img class="header-logo-img" src="./images/logo.png" alt="logo" />
+            </a>
+            <ul class="header-list">
+              <li class="header-item">
+                <a class="header-item-link" href="#">Products</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="#">How it works</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="#">Technology</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="#">eero Secure</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="#">Support</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="#">Find your system</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header-button btn" type="button">Shop</button>
+        </div>
       </div>
-      <nav class="header-nav">
-        <a class="header-logo" href="#">
-          <img class="header-logo-img" src="./images/logo.png" alt="logo" />
-        </a>
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-item-link" href="#">Products</a>
-          </li>
-          <li class="header-item">
-            <a class="header-item-link" href="#">How it works</a>
-          </li>
-          <li class="header-item">
-            <a class="header-item-link" href="#">Technology</a>
-          </li>
-          <li class="header-item">
-            <a class="header-item-link" href="#">eero Secure</a>
-          </li>
-          <li class="header-item">
-            <a class="header-item-link" href="#">Support</a>
-          </li>
-          <li class="header-item">
-            <a class="header-item-link" href="#">Find your system</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="header-button btn" type="button">Shop</button>
     </header>
     <main>
       <!-- Hero-section -->
       <section class="section hero-section" style="background-color: silver">
-        <h1 class="hero-title">Wi-Fi 6 is here.</h1>
-        <p class="hero-text">The future of home wifi is fast.</p>
-        <button class="btn primary" type="button">SHOP WIFI SOLUTIONS</button>
+        <div class="container hero-container">
+          <h1 class="hero-title">Wi-Fi 6 is here.</h1>
+          <p class="hero-text">The future of home wifi is fast.</p>
+          <button class="btn primary" type="button">SHOP WIFI SOLUTIONS</button>
+        </div>
       </section>
       <!-- Find section -->
       <section class="section find-section">
@@ -81,41 +87,43 @@
         <img src="./images/Rectangle.jpg" alt="" width="928" height="747" />
       </section>
       <!-- Products section -->
-      <section>
-        <h2 hidden>Products</h2>
-        <ul style="display: flex">
+      <section class="products-section">
+        <h2 class="products-header" hidden>Products</h2>
+        <ul class="list-products" style="display: flex">
           <li>
-            <p>Wi-Fi 6</p>
-            <h3>eero Pro 6</h3>
-            <p>The fastest eero yet.</p>
-            <p>
+            <p class="text-products">Wi-Fi 6</p>
+            <h3 class="products-device">eero Pro 6</h3>
+            <p class="products-item">The fastest eero yet.</p>
+            <p class="products-description">
               Tri-band Wi-Fi 6 system designed for homes with gigabit internet
               connections.
             </p>
-            <p>Starting at $ <span>229</span></p>
+            <p class="products-price">Starting at $ <span>229</span></p>
             <button class="btn" type="button">Shop Now</button>
           </li>
           <li>
-            <p>Wi-Fi 6</p>
-            <h3>eero 6</h3>
-            <p>Experience Wi-Fi 6—the new standard for home wifi.</p>
-            <p>
+            <p class="text-products">Wi-Fi 6</p>
+            <h3 class="products-device">eero 6</h3>
+            <p class="products-item">
+              Experience Wi-Fi 6—the new standard for home wifi.
+            </p>
+            <p class="products-description">
               Dual-band Wi-Fi 6 system designed for homes with 500 Mbps internet
               connections.
             </p>
-            <p>Starting at $ <span>129</span></p>
+            <p class="products-price">Starting at $ <span>129</span></p>
             <button class="btn" type="button">Shop Now</button>
           </li>
         </ul>
-        <a href="#">Compare All Models</a>
+        <a class="products-link" href="#">Compare All Models</a>
       </section>
       <!-- Newspaper clipping  -->
       <section class="newspaper-clipping">
         <h2 hidden>Newspaper clipping</h2>
-        <h3 class="newspaper-clipping-article">
+        <p class="newspaper-clipping-article">
           eero combats frustrating Wi-Fi dead zones with an armada of little
           wireless routers.
-        </h3>
+        </p>
         <img
           src="./images/Vector.png"
           alt="newspaper name"
@@ -129,7 +137,7 @@
           <li class="wfunction-item">
             <a href="#">
               <img
-                src="./images/lamp.jpg"
+                src="./images/lamp.svg"
                 alt="wifi light control"
                 width="77px"
                 height="76px"
@@ -139,7 +147,7 @@
           <li class="wfunction-item">
             <a href="#">
               <img
-                src="./images/smart_device.png"
+                src="./images/smart_device.svg"
                 alt="wifi device control"
                 width="77px"
                 height="76px"
@@ -149,7 +157,7 @@
           <li class="wfunction-item">
             <a href="#">
               <img
-                src="./images/control_home.png"
+                src="./images/control_home.svg"
                 alt="wifi control home"
                 width="77px"
                 height="76px"
@@ -204,23 +212,31 @@
           alt="strong signal"
         />
       </section>
-      <section>
-        <h2 class="title">TrueMesh covers your whole home.</h2>
-        <p>
+
+      <!--TrueMesh section-->
+      <section class="truemesh">
+        <h2 class="truemesh-title">TrueMesh covers your whole home.</h2>
+        <p class="truemesh-text">
           TrueMesh learns the layout of your home to intelligently route traffic
           and optimize your <br />
           wifi. eero 6 and eero Pro 6 are the first Wi-Fi 6 routers with eero’s
           TrueMesh technology.
         </p>
-        <button class="btn" type="button">See how it works</button>
-        <img class="img-sec" src="./images/Rectangle.png" alt="" />
+        <button class="truemesh-btn" type="button">See how it works</button>
+        <img
+          class="img-sec"
+          src="./images/Rectangle.png"
+          alt=""
+          width="666"
+          height="304"
+        />
       </section>
       <!-- --------- -->
       <!-- section Never worry about wifi again. section -->
       <section class="features">
         <h2 class="features-title title">Never worry about wifi again.</h2>
-        <ul>
-          <li>
+        <ul class="features-list">
+          <li class="features-item">
             <img src="./images/icon-1.svg" alt="icon" width="77" height="77" />
             <h4 class="features-subtitle">Fast and easy setup</h4>
             <p class="features-text">
@@ -230,7 +246,7 @@
             </p>
             <a href="" class="features-link">CHECK OUT THE APP</a>
           </li>
-          <li>
+          <li class="features-item">
             <img src="./images/icon-2.svg" alt="icon" width="77" height="77" />
             <h4 class="features-subtitle">Advanced network protection</h4>
             <p class="features-text">
@@ -240,7 +256,7 @@
             </p>
             <a href="" class="features-link">GET EERO SECURE</a>
           </li>
-          <li>
+          <li class="features-item">
             <img src="./images/icon-3.svg" alt="icon" width="77" height="77" />
             <h4 class="features-subtitle">Always getting better</h4>
             <p class="features-text">
@@ -251,6 +267,7 @@
           </li>
         </ul>
       </section>
+      <!-- end------------------ -->
       <!-- Find your eero system -->
       <section class="slider">
         <h2 class="slider-title title">Find your eero system</h2>
@@ -275,32 +292,36 @@
       </section>
       <!--turns out,people love great wifi -->
       <section>
-        <h2 class="title">Turns out, people love great wifi.</h2>
-        <img
-          src="./images/image.png"
-          width="720"
-          height="488"
-          alt="hispanic family playing with children's toys"
-        />
-        <ul>
-          <li><a href="#">Setup</a></li>
-          <li><a href="#">Coverage</a></li>
-          <li><a href="#">Reliability</a></li>
-          <li><a href="#">Security</a></li>
-        </ul>
+        <h2 class="title-turns-out">Turns out, people love great wifi.</h2>
         <div>
-          <p>
-            "Setting up our eeros was a breeze thanks to the plug and play
-            installation. The whole experience was life changing compared to
-            other routers we’ve used."
-          </p>
-          <p>The Rankins</p>
+          <img
+            src="./images/image.png"
+            width="720"
+            height="488"
+            alt="hispanic family playing with children's toys"
+          />
+          <ul>
+            <li><a href="#" class="section-turns-out-link">Setup</a></li>
+            <li><a href="#" class="section-turns-out-link">Coverage</a></li>
+            <li><a href="#" class="section-turns-out-link">Reliability</a></li>
+            <li><a href="#" class="section-turns-out-link">Security</a></li>
+          </ul>
         </div>
-        <div>
+        <p class="section-turns-out-description">
+          "Setting up our eeros was a breeze<br />
+          thanks to the plug and play<br />
+          installation. The whole<br />
+          experience was life changing<br />
+          compared to other routers we’ve<br />
+          used."
+        </p>
+        <div class="section-turns-out-address">
+          <p>The Rankins</p>
           <address>
             <a
               href="https://www.google.com.ua/maps/place/%D0%A1%D0%B8%D1%8D%D1%82%D0%BB,+%D0%92%D0%B0%D1%88%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,+%D0%A1%D0%A8%D0%90/@47.6129432,-122.4821465,11z/data=!3m1!4b1!4m5!3m4!1s0x5490102c93e83355:0x102565466944d59a!8m2!3d47.6062095!4d-122.3320708?hl=ru"
               rel="noreferrer noopener nofollow"
+              class="section-turns-out-address"
               >Seattle, WA</a
             >
           </address>
@@ -308,7 +329,9 @@
             | 4Bedroom house 3,300 sq. ft. 16connected devices Use eero 3-pack
           </p>
         </div>
-        <button type="button">Shop all eero systems</button>
+        <button type="button" class="section-turns-out-btn">
+          Shop all eero systems
+        </button>
       </section>
       <!-- The experts are in. -->
       <section class="experts-section">
@@ -324,53 +347,83 @@
           <li class="experts-item icon-warranty">1-year warranty</li>
         </ul>
       </section>
+
+      <!-- Section goodbye -->
+      <section class="goodbye">
+        <div class="goodbye-content">
+          <h2>Stay connected with fast, reliable, whole-home wifi.</h2>
+          <a href="#">goodbye dead spots</a>
+        </div>
+      </section>
     </main>
-    <!-- footer section -->
-    <footer style="background-color: #8e8f99">
-      <a href="#">
-        <img src="./images/logo-2.png" alt="logo-2" />
+
+    <footer class="backgrn-clr">
+      <a class="footer-logo" href="#">
+        <img class="footer-logo-img" src="./images/logo-two.png" alt="logo-2" />
       </a>
-      <ul>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">How it works</a></li>
-        <li><a href="#">Technology</a></li>
-        <li><a href="#">eero Secure</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Find Your System</a></li>
-        <li><a href="#">Cookie preferences</a></li>
+      <ul class="list-style">
+        <li class="footer-item">
+          <a class="footer-link" href="#">Products</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">How it works</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">Technology</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">eero Secure</a>
+        </li>
+        <li class="footer-item"><a class="footer-link" href="#">Support</a></li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">Find Your System</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">Cookie preferences</a>
+        </li>
       </ul>
-      <ul>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Media room</a></li>
-        <li><a href="#">Legal</a></li>
-        <li><a href="#">Custom installer</a></li>
-        <li><a href="#">Where to buy</a></li>
-        <li><a href="#">eero for Service Providers</a></li>
+      <ul class="list-style">
+        <li class="footer-item"><a class="footer-link" href="#">Shop</a></li>
+        <li class="footer-item"><a class="footer-link" href="#">Careers</a></li>
+        <li class="footer-item"><a class="footer-link" href="#">Blog</a></li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">Media room</a>
+        </li>
+        <li class="footer-item"><a class="footer-link" href="#">Legal</a></li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">Custom installer</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">Where to buy</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#">eero for Service Providers</a>
+        </li>
       </ul>
-      <h3>Connect with us</h3>
-      <p>For the latest eero news and promotions.</p>
-      <form>EMAIL</form>
-      <img src="./images/line.png" alt="line" />
-      <button type="submit">submit</button>
-      <p>&copy <span>2021</span><span>EERO LLC, SAN FRANCISCO, CA</span></p>
-      <ul>
-        <li>
+      <h3 class="information">Connect with us</h3>
+      <p class="footer-link">For the latest eero news and promotions.</p>
+      <form class="mail-footer">EMAIL</form>
+      <img class="line-mail" src="./images/line.png" alt="line" />
+      <button class="footer-btn" type="submit">SUBMIT</button>
+      <p class="developer-info">
+        © <span>2021</span><span>EERO LLC, SAN FRANCISCO, CA</span>
+      </p>
+      <ul class="list-style">
+        <li class="website">
           <a
             href="http://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="facebook link"
             ><img
-              src="./images/link-3.png"
+              src="./images/link-three.png"
               alt="facebook symbol"
               width="30"
               height="30"
             />
           </a>
         </li>
-        <li>
+        <li class="website">
           <a
             href="http://instagram.com"
             target="_blank"
@@ -378,46 +431,46 @@
             aria-label="instagram link"
           >
             <img
-              src="./images/link.png"
+              src="./images/link-one.png"
               alt="instagram symbol "
               width="30"
               height="30"
           /></a>
         </li>
-        <li>
+        <li class="website">
           <a
             href="http://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin link"
             ><img
-              src="./images/link-2.png"
+              src="./images/link-two.png"
               alt="linkedin symbol"
               width="30"
               height="30"
           /></a>
         </li>
-        <li>
+        <li class="website">
           <a
             href="http://pinterest.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="pinterest link"
             ><img
-              src="./images/link-1.png"
+              src="./images/link-five.png"
               alt="pinterest symbol"
               width="30"
               height="30"
           /></a>
         </li>
-        <li>
+        <li class="website">
           <a
             href="http://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="twitter link"
             ><img
-              src="./images/link-4.png"
+              src="./images/link-four.png"
               alt="twitter symbol"
               width="30"
               height="30"
